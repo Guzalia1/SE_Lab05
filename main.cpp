@@ -1,16 +1,17 @@
-/*This program is educational*/
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    int a, b;
-    cout <<"Enter two integer numbers" << endl;
-    cin >> a >> b;
-    int c;
-    c=a+b;
-    cout << "a+b= " << c << endl;
-    c=a-b;
-    cout << "a-b= " << c << endl;
+int a,b,c;
+cout << "Enter A and B:";
+cin >> a >> b;
+cout << "A + B = " << c << endl;
+cout <<"A - B = " << c << endl;
+<<<<<<< HEAD
+cout <<" A * B = " << c << endl;
+=======
+cout << "A/B=" << c << endl;
+>>>>>>>division
 }
